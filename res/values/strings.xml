@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MelDemo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    
+    
+    <string name="maillist_top_center_text">邮件列表</string>
+    <string name="maillist_top_leftbtn_text">mailbox</string>
+    <string name="maillist_top_rightbtn_text">edit</string>
+    <string name="maillist_bottom_rightbtn_text">new</string>
+    
+    
+    <string name="maillist_refreshing">正在刷新，请稍后</string>
+
+</resources>

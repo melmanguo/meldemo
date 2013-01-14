@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="30dp"
+    android:background="@color/cyan" >
+	  <TextView
+        android:id="@+id/custom_main_bottom_center_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="3dp"
+        android:background="@color/cyan"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:textStyle="bold" >
+    </TextView>
+
+    <Button
+        android:id="@+id/custom_mail_bottom_right_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="3dp"
+        android:background="@color/titlebtn"
+        android:contentDescription="@string/hello_world"
+        android:textColor="@color/white"
+        android:textSize="10sp" >
+    </Button>
+    
+    
+</RelativeLayout>

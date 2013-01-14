@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.melman.meldemo.ui.custom.CustomMainTop
+        android:id="@+id/maillist_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+    </com.melman.meldemo.ui.custom.CustomMainTop>
+
+    <ListView
+        android:id="@+id/maillist_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/maillist_top" >
+    </ListView>
+    
+        <com.melman.meldemo.ui.custom.CustomMainBottom
+        android:id="@+id/maillist_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/maillist_listview"
+        android:layout_alignParentBottom="true" >
+    </com.melman.meldemo.ui.custom.CustomMainBottom>
+    
+
+</RelativeLayout>
